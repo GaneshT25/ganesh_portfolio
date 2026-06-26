@@ -58,6 +58,22 @@ nav ul li a:hover {
   max-width: 900px;
 }
 
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
 .hero-content h1 {
   font-size: 52px;
   margin-bottom: 15px;
@@ -263,6 +279,15 @@ footer {
 
   nav ul {
     justify-content: center;
+  }
+   .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
   }
 
   .hero-content h1 {
