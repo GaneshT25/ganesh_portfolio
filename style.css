@@ -330,3 +330,20 @@ footer {
     font-size: 14px;
   }
 }
+  .contact .btn {
+  color: white !important;
+}
+
+.contact .btn:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.contact .btn.secondary-dark {
+  color: #2563eb !important;
+}
+
+.contact .btn.secondary-dark:hover {
+  color: white !important;
+}
+   
